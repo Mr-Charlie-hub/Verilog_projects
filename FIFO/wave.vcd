@@ -1,0 +1,213 @@
+$date
+	Wed May 20 11:35:02 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var wire 8 # dout [7:0] $end
+$var parameter 32 $ Width $end
+$var reg 1 % clk $end
+$var reg 8 & din [7:0] $end
+$var reg 1 ' rd_en $end
+$var reg 1 ( rst $end
+$var reg 1 ) wr_en $end
+$scope module uut $end
+$var wire 1 % clk $end
+$var wire 8 * din [7:0] $end
+$var wire 1 ! full $end
+$var wire 1 ' rd_en $end
+$var wire 1 ( rst $end
+$var wire 1 ) wr_en $end
+$var wire 1 " empty $end
+$var parameter 32 + Addr_Width $end
+$var parameter 32 , Depth $end
+$var parameter 32 - Width $end
+$var reg 8 . dout [7:0] $end
+$var reg 4 / rd_ptr [3:0] $end
+$var reg 4 0 wr_ptr [3:0] $end
+$upscope $end
+$scope task read_fifo $end
+$upscope $end
+$scope task reset_fifo $end
+$upscope $end
+$scope task write_fifo $end
+$var reg 8 1 data [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 -
+b1000 ,
+b11 +
+b1000 $
+$end
+#0
+$dumpvars
+bx 1
+bx 0
+bx /
+bx .
+b0 *
+0)
+0(
+0'
+b0 &
+0%
+bx #
+x"
+x!
+$end
+#5
+0!
+1"
+b0 0
+b0 #
+b0 .
+b0 /
+1(
+1%
+#10
+0%
+#15
+1%
+#20
+0%
+#25
+b1000101 1
+0(
+1%
+#30
+0%
+#35
+0"
+b1 0
+b1000101 &
+b1000101 *
+1)
+1%
+#40
+0%
+#45
+b10 0
+b10101010 1
+0)
+1%
+#50
+0%
+#55
+b11 0
+b10101010 &
+b10101010 *
+1)
+1%
+#60
+0%
+#65
+b100 0
+b11111111 1
+0)
+1%
+#70
+0%
+#75
+b101 0
+b11111111 &
+b11111111 *
+1)
+1%
+#80
+0%
+#85
+b110 0
+0)
+1%
+#90
+0%
+#95
+b1 /
+b1000101 #
+b1000101 .
+1'
+1%
+#100
+0%
+#105
+b10 /
+0'
+1%
+#110
+0%
+#115
+b11 /
+b10101010 #
+b10101010 .
+1'
+1%
+#120
+0%
+#125
+b100 /
+0'
+1%
+#130
+0%
+#135
+b101 /
+b11111111 #
+b11111111 .
+1'
+1%
+#140
+0%
+#145
+1"
+b110 /
+0'
+1%
+#150
+0%
+#155
+1%
+#160
+0%
+#165
+1%
+#170
+0%
+#175
+1%
+#180
+0%
+#185
+1%
+#190
+0%
+#195
+1%
+#200
+0%
+#205
+1%
+#210
+0%
+#215
+1%
+#220
+0%
+#225
+1%
+#230
+0%
+#235
+1%
+#240
+0%
+#245
+1%
