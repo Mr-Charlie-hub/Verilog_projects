@@ -1,0 +1,327 @@
+$date
+	Thu May 21 11:17:24 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench_encoder $end
+$var reg 1 ! clk_decoder $end
+$var reg 1 " clk_encoder $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 1 ! clk_decoder $end
+$var wire 1 " clk_encoder $end
+$var wire 1 # rst $end
+$var wire 1 $ wr_en_top $end
+$var wire 1 % rd_en_top $end
+$var wire 1 & full_top $end
+$var wire 1 ' empty_top $end
+$var wire 8 ( dout_top [7:0] $end
+$var wire 8 ) dout [7:0] $end
+$var wire 8 * din_top [7:0] $end
+$var parameter 32 + Width $end
+$scope module decoder $end
+$var wire 1 ! clk $end
+$var wire 1 # rst $end
+$var wire 1 & full $end
+$var wire 1 ' empty $end
+$var wire 8 , din [7:0] $end
+$var parameter 32 - Width $end
+$var reg 8 . dout [7:0] $end
+$var reg 8 / pattern [7:0] $end
+$var reg 1 % rd_en $end
+$var reg 1 0 start_read $end
+$upscope $end
+$scope module encoder $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 1 & full $end
+$var parameter 32 1 Width $end
+$var reg 8 2 counter [7:0] $end
+$var reg 8 3 din [7:0] $end
+$var reg 8 4 pattern [7:0] $end
+$var reg 1 $ wr_en $end
+$upscope $end
+$scope module fifo $end
+$var wire 1 " clk $end
+$var wire 8 5 din [7:0] $end
+$var wire 1 & full $end
+$var wire 1 % rd_en $end
+$var wire 1 # rst $end
+$var wire 1 $ wr_en $end
+$var wire 1 ' empty $end
+$var parameter 32 6 Addr_Width $end
+$var parameter 32 7 Depth $end
+$var parameter 32 8 Width $end
+$var reg 8 9 dout [7:0] $end
+$var reg 4 : rd_ptr [3:0] $end
+$var reg 4 ; wr_ptr [3:0] $end
+$var integer 32 < i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 8
+b1000 7
+b11 6
+b1000 1
+b1000 -
+b1000 +
+$end
+#0
+$dumpvars
+bx <
+bx ;
+bx :
+bx 9
+bx 5
+b10100101 4
+bx 3
+bx 2
+x0
+b10100101 /
+bx .
+bx ,
+bx *
+bx )
+bx (
+x'
+x&
+x%
+x$
+1#
+0"
+0!
+$end
+#6
+0&
+0$
+b0 *
+b0 3
+b0 5
+b0 2
+1'
+b0 ;
+b0 (
+b0 ,
+b0 9
+b0 :
+b1000 <
+1"
+#10
+0%
+b0 )
+b0 .
+00
+1!
+#12
+0"
+#18
+b1000 <
+1"
+#20
+0!
+0#
+#24
+0"
+#30
+b1 2
+1$
+b10100101 *
+b10100101 3
+b10100101 5
+1"
+1!
+#36
+0"
+#40
+0!
+#42
+0'
+b1 ;
+b10 2
+b10100100 *
+b10100100 3
+b10100100 5
+1"
+#48
+0"
+#50
+1!
+#54
+b11 2
+b10100111 *
+b10100111 3
+b10100111 5
+b10 ;
+1"
+#60
+0"
+0!
+#66
+b11 ;
+b100 2
+b10100110 *
+b10100110 3
+b10100110 5
+1"
+#70
+1!
+#72
+0"
+#78
+b101 2
+b10100001 *
+b10100001 3
+b10100001 5
+b100 ;
+1"
+#80
+0!
+#84
+0"
+#90
+b101 ;
+b110 2
+b10100000 *
+b10100000 3
+b10100000 5
+1"
+1!
+#96
+0"
+#100
+0!
+#102
+b111 2
+b10100011 *
+b10100011 3
+b10100011 5
+b110 ;
+1"
+#108
+0"
+#110
+1!
+#114
+b111 ;
+b1000 2
+b10100010 *
+b10100010 3
+b10100010 5
+1"
+#120
+0"
+0!
+#126
+1&
+b1001 2
+b10101101 *
+b10101101 3
+b10101101 5
+b1000 ;
+1"
+#130
+10
+1!
+#132
+0"
+#138
+0$
+1"
+#140
+0!
+#144
+0"
+#150
+b10100101 )
+b10100101 .
+1%
+1"
+1!
+#156
+0"
+#160
+0!
+#162
+0&
+b1 :
+b10100101 (
+b10100101 ,
+b10100101 9
+1"
+#168
+0"
+#170
+b0 )
+b0 .
+1!
+#174
+b1010 2
+1$
+b10101100 *
+b10101100 3
+b10101100 5
+b10 :
+b10100100 (
+b10100100 ,
+b10100100 9
+1"
+#180
+0"
+0!
+#186
+b11 :
+b10100111 (
+b10100111 ,
+b10100111 9
+b1001 ;
+b1011 2
+b10101111 *
+b10101111 3
+b10101111 5
+1"
+#190
+b10 )
+b10 .
+1!
+#192
+0"
+#198
+b1100 2
+b10101110 *
+b10101110 3
+b10101110 5
+b1010 ;
+b100 :
+b10100110 (
+b10100110 ,
+b10100110 9
+1"
+#200
+0!
+#204
+0"
+#210
+b101 :
+b10100001 (
+b10100001 ,
+b10100001 9
+b1011 ;
+b1101 2
+b10101001 *
+b10101001 3
+b10101001 5
+b11 )
+b11 .
+1"
+1!
+#216
+0"
+#220
+0!
