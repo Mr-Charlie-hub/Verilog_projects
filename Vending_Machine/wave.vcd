@@ -1,0 +1,343 @@
+$date
+	Tue May 26 04:41:30 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_top $end
+$var reg 1 ! Cancel $end
+$var reg 4 " amount [3:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ coke $end
+$var reg 1 % dispence $end
+$var reg 1 & load $end
+$var reg 1 ' pepsi $end
+$var reg 1 ( rst $end
+$scope module dut $end
+$var wire 1 ! Cancel $end
+$var wire 4 ) amount [3:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ coke $end
+$var wire 1 % dispence $end
+$var wire 1 & load $end
+$var wire 1 ' pepsi $end
+$var wire 1 ( rst $end
+$var wire 1 * pepsi_in $end
+$var wire 1 + out $end
+$var wire 1 , load_en $end
+$var wire 1 - in_data $end
+$var wire 1 . full_pepsi $end
+$var wire 1 / full_coke $end
+$var wire 1 0 empty_pepsi $end
+$var wire 1 1 empty_coke $end
+$var wire 1 2 dispence_pepsi $end
+$var wire 1 3 dispence_coke $end
+$var wire 1 4 coke_in $end
+$scope module fifo $end
+$var wire 1 # clk $end
+$var wire 1 - in $end
+$var wire 1 ( rst $end
+$var wire 1 * pepsi_in $end
+$var wire 1 , load_en $end
+$var wire 1 . full_pepsi $end
+$var wire 1 / full_coke $end
+$var wire 1 0 empty_pepsi $end
+$var wire 1 1 empty_coke $end
+$var wire 1 2 dispence_pepsi $end
+$var wire 1 3 dispence_coke $end
+$var wire 1 4 coke_in $end
+$var parameter 32 5 ADDR_WIDTH $end
+$var parameter 32 6 DEPTH $end
+$var parameter 32 7 WIDTH $end
+$var reg 3 8 coke_count [2:0] $end
+$var reg 3 9 coke_rd_ptr [2:0] $end
+$var reg 3 : coke_wr_ptr [2:0] $end
+$var reg 1 + out $end
+$var reg 3 ; pepsi_count [2:0] $end
+$var reg 3 < pepsi_rd_ptr [2:0] $end
+$var reg 3 = pepsi_wr_ptr [2:0] $end
+$upscope $end
+$scope module vm $end
+$var wire 1 ! Cancel $end
+$var wire 4 > amount [3:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ coke $end
+$var wire 1 % dispence $end
+$var wire 1 & load $end
+$var wire 1 ' pepsi $end
+$var wire 1 ( rst $end
+$var parameter 3 ? IDLE $end
+$var parameter 3 @ LOAD $end
+$var parameter 3 A PRODUCT $end
+$var parameter 3 B SELECT $end
+$var parameter 3 C WAIT_MONEY $end
+$var reg 1 4 coke_in $end
+$var reg 1 3 dispence_coke $end
+$var reg 1 2 dispence_pepsi $end
+$var reg 1 , load_en $end
+$var reg 3 D next_state [2:0] $end
+$var reg 1 * pepsi_in $end
+$var reg 1 E select_coke $end
+$var reg 1 F select_pepsi $end
+$var reg 3 G state [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 C
+b1 B
+b100 A
+b11 @
+b0 ?
+b1 7
+b1000 6
+b11 5
+$end
+#0
+$dumpvars
+bx G
+xF
+xE
+b0 D
+b0 >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+04
+03
+02
+x1
+x0
+x/
+x.
+0-
+0,
+x+
+0*
+b0 )
+1(
+0'
+0&
+0%
+0$
+0#
+b0 "
+0!
+$end
+#5
+b0 G
+0F
+0E
+0.
+10
+b0 ;
+0/
+11
+b0 8
+b100 <
+b100 =
+b0 9
+b0 :
+0+
+1#
+#10
+0#
+#15
+1#
+#20
+0#
+0(
+#25
+1E
+b1 D
+1$
+1#
+#30
+0#
+#35
+1,
+b1 G
+b11 D
+1&
+1#
+#40
+0#
+#45
+1-
+14
+b11 G
+0,
+b0 D
+0&
+0$
+1#
+#50
+0#
+#55
+0-
+b1 :
+01
+b1 8
+b0 G
+04
+b1 D
+1'
+1#
+#60
+0#
+#65
+1,
+b1 G
+0E
+1F
+b11 D
+1&
+1#
+#70
+0#
+#75
+1*
+b11 G
+0,
+b0 D
+0&
+0'
+1#
+#80
+0#
+#85
+b0 G
+0F
+1E
+b101 =
+00
+b1 ;
+0*
+b1 D
+1$
+1#
+#90
+0#
+#95
+b1 G
+b10 D
+1%
+1#
+#100
+0#
+#105
+b10 G
+b100 D
+b1100 "
+b1100 )
+b1100 >
+1#
+#110
+0#
+#115
+13
+b100 G
+b0 D
+b0 "
+b0 )
+b0 >
+0%
+0$
+1#
+#120
+0#
+#125
+b0 G
+0E
+1F
+b1 9
+11
+b0 8
+1+
+b1 D
+03
+1'
+1#
+#130
+0#
+#135
+b1 G
+b10 D
+1%
+1#
+#140
+0#
+#145
+b10 G
+b100 D
+b1101 "
+b1101 )
+b1101 >
+1#
+#150
+0#
+#155
+12
+b100 G
+b0 D
+b0 "
+b0 )
+b0 >
+0%
+0'
+1#
+#160
+0#
+#165
+b0 G
+0F
+1E
+b101 <
+10
+b0 ;
+0+
+b1 D
+02
+1$
+1#
+#170
+0#
+#175
+b1 G
+b1 D
+1!
+1#
+#180
+0#
+#185
+0$
+0!
+1#
+#190
+0#
+#195
+1#
+#200
+0#
+#205
+1#
+#210
+0#
+#215
+1#
+#220
+0#
+#225
+1#
+#230
+0#
+#235
+1#
