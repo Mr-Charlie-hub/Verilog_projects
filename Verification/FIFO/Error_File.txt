@@ -1,0 +1,85 @@
+First Error -> 1
+
+Loading sv_std.std
+# Loading work.fifo_test(fast)
+# run -all
+# ** Error: Write occurred when FIFO was full! ###(this occured because it was hapening in the same cycle which 
+                                               ###   should have ben checked in the next cycle)
+#    Time: 185 ns Started: 185 ns  Scope: fifo_test.assert_no_write_when_full File: fifo_testbench.sv Line: 31
+# ** Error: Read occurred when FIFO was empty!
+#    Time: 395 ns Started: 395 ns  Scope: fifo_test.assert_no_read_when_empty File: fifo_testbench.sv Line: 38
+# ** Note: $finish    : fifo_testbench.sv(84)
+#    Time: 475 ns  Iteration: 0  Instance: /fifo_test
+# End time: 10:56:27 on May 27,2026, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+
+
+Second Error -> 2
+
+//Using coverage to chek this
+
+Loading sv_std.std
+# Loading work.fifo_test(fast)
+# run -all
+# FIFO became EMPTY at time=15
+# FIFO became EMPTY at time=25
+# FIFO became FULL at time=185
+# FIFO became FULL at time=195
+# FIFO became FULL at time=205
+# FIFO became FULL at time=215
+# FIFO became FULL at time=225
+# FIFO became FULL at time=235
+# FIFO became EMPTY at time=395
+# FIFO became EMPTY at time=405
+# FIFO became EMPTY at time=415
+# FIFO became EMPTY at time=425
+# FIFO became EMPTY at time=435
+# FIFO became EMPTY at time=445
+# FIFO became EMPTY at time=455
+# FIFO became EMPTY at time=465
+
+Third one -> 3
+ Loading sv_std.std
+# Loading work.fifo_test(fast)
+# run -all
+# FIFO became EMPTY at time=15
+# FIFO became EMPTY at time=25
+# WRITE POINTER WRAPPED
+# FIFO became FULL at time=185
+# WRITE POINTER WRAPPED
+# FIFO became FULL at time=195
+# WRITE POINTER WRAPPED
+# FIFO became FULL at time=205
+# WRITE POINTER WRAPPED
+# FIFO became FULL at time=215
+# WRITE POINTER WRAPPED
+# FIFO became FULL at time=225
+# WRITE POINTER WRAPPED
+# FIFO became FULL at time=235
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# WRITE POINTER WRAPPED
+# FIFO became EMPTY at time=395
+# FIFO became EMPTY at time=405
+# FIFO became EMPTY at time=415
+# FIFO became EMPTY at time=425
+# FIFO became EMPTY at time=435
+# FIFO became EMPTY at time=445
+# FIFO became EMPTY at time=455
+# FIFO became EMPTY at time=465
+# ** Note: $finish    : fifo_testbench.sv(108)
+#    Time: 475 ns  Iteration: 0  Instance: /fifo_test
+# End time: 12:40:21 on May 27,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

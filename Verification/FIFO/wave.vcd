@@ -1,0 +1,77 @@
+$date
+	Wed May 27 14:27:39 2026
+$end
+$version
+	QuestaSim Version 10.7c
+$end
+$timescale
+	1ns
+$end
+
+$scope module fifo_test $end
+
+$scope begin assert_no_write_when_full $end
+$upscope $end
+
+$scope begin assert_no_read_when_empty $end
+$upscope $end
+
+$scope begin cover_full $end
+$upscope $end
+
+$scope begin cover_empty $end
+$upscope $end
+
+$scope begin cover_wrap $end
+$upscope $end
+
+$scope module fifo_inst $end
+$var reg 4 ! wr_ptr [3:0] $end
+$var reg 4 " rd_ptr [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx !
+bx "
+$end
+#5
+b0 !
+b0 "
+#15
+b1 !
+#25
+b10 !
+#35
+b1 "
+#45
+b10 "
+#55
+b11 !
+#85
+b100 !
+#95
+b11 "
+#105
+b101 !
+#115
+b110 !
+#125
+b100 "
+#135
+b101 "
+#145
+b110 "
+#195
+b111 !
+#205
+b1000 !
+#215
+b1001 !
+#225
+b1010 !
+#235
+b1011 !
+#245
+b1100 !
