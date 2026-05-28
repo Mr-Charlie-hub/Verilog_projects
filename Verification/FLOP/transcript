@@ -1,6 +1,6 @@
 # vsim -c tb -do "run -all; quit" 
-# Start time: 10:30:23 on May 28,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 13:08:05 on May 28,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # //  Questa Sim-64
 # //  Version 10.7c win64 Aug 18 2018
 # //
@@ -37,50 +37,69 @@
 # Monitored transaction: d = 1, q = 0
 # PASS: Expected q = 0, got q = 0
 # Applied transaction: d = 0
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 0, q = 1
 # PASS: Expected q = 1, got q = 1
 # Applied transaction: d = 0
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 0, q = 0
 # PASS: Expected q = 0, got q = 0
 # Applied transaction: d = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 0
 # PASS: Expected q = 0, got q = 0
 # Applied transaction: d = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
 # Applied transaction: d = 0
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 0, q = 1
 # PASS: Expected q = 1, got q = 1
 # Applied transaction: d = 0
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 0, q = 0
 # PASS: Expected q = 0, got q = 0
 # Applied transaction: d = 0
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 0, q = 0
 # PASS: Expected q = 0, got q = 0
 # Applied transaction: d = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 0
 # PASS: Expected q = 0, got q = 0
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
+# DFF property passed: q follows d on the rising edge of clk
 # Monitored transaction: d = 1, q = 1
 # PASS: Expected q = 1, got q = 1
-# ** Note: $finish    : flop_testbench.sv(58)
+# Coverage = 100.00 %
+# ** Note: $finish    : flop_testbench.sv(89)
 #    Time: 200 ns  Iteration: 0  Instance: /tb
-# End time: 10:30:25 on May 28,2026, Elapsed time: 0:00:02
+# End time: 13:08:06 on May 28,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
