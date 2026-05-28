@@ -1,0 +1,121 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lenovo/Verilog_projects/Verification/FLOP
+T_opt
+!s110 1779944424
+VE2Ta9jb<3VBMf_XL5]Bl`0
+04 2 4 work tb fast 0
+=1-40c2ba6122a9-6a17cbe8-57-270c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Ydff_if
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1779944418
+!i10b 1
+!s100 fV;;]9dT[BJcE`@WkgkdG0
+INo=?ob@XCz1Qk]YWnSSgF2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 flop_testbench_sv_unit
+S1
+R0
+w1779943283
+8interface.sv
+Z6 Finterface.sv
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1779944418.000000
+Z9 !s107 scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|interface.sv|flop_testbench.sv|flop_design.sv|
+Z10 !s90 flop_design.sv|flop_testbench.sv|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vflop
+R2
+R3
+!i10b 1
+!s100 63_gTif0ZoliRL7I6?]DW2
+IK@[z6Q`_:A65abB^z4G]G2
+R4
+!s105 flop_design_sv_unit
+S1
+R0
+w1779943542
+8flop_design.sv
+Fflop_design.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+Xflop_testbench_sv_unit
+!s115 dff_if
+R2
+V2XGEicCHNNUUXWn<@FZD63
+r1
+!s85 0
+!i10b 1
+!s100 oOW[5M<f^MzI161_Ck;VL0
+I2XGEicCHNNUUXWn<@FZD63
+!i103 1
+S1
+R0
+w1779944257
+Z12 8flop_testbench.sv
+Z13 Fflop_testbench.sv
+R6
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+Fmonitor.sv
+Fscoreboard.sv
+L0 1
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtb
+R2
+DXx4 work 22 flop_testbench_sv_unit 0 22 2XGEicCHNNUUXWn<@FZD63
+R4
+r1
+!s85 0
+!i10b 1
+!s100 49L:>f7kJc==Od6nMcbc;3
+InY?ZfAJzVR=z16K@[_WM=0
+R5
+S1
+R0
+w1779943517
+R12
+R13
+L0 8
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
