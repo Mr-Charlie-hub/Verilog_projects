@@ -1,0 +1,141 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lenovo/Verilog_projects/Verification/FIFO_VER_1
+T_opt
+!s110 1780010857
+VY_5_=Y7@JTgbmPPDDP^0d2
+Z1 04 14 4 work fifo_testbench fast 0
+=1-40c2ba6122a9-6a18cf68-38f-1dc8
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1780129781
+Vb1Z2<>M[GEZY_5iQcJ`Q>1
+R1
+=1-aaabb50a8b7c-6a1a9ff5-ef-b78
+R2
+R3
+n@_opt1
+R4
+T_opt2
+!s110 1780014848
+VSl6MEb8mDSYC[]i8:heOc0
+R1
+=1-78465c38c983-6a18df00-e4-16f4
+o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt2
+R4
+R0
+vfifo_design
+Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z6 !s110 1780129778
+!i10b 1
+!s100 jQn42XL3;Wk<d:Yde9dZ<3
+IH[SUL0kbm?0oajdeAd:S[0
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fifo_design_sv_unit
+S1
+R0
+w1779986070
+8.\fifo_design.sv
+F.\fifo_design.sv
+L0 1
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1780129777.000000
+Z10 !s107 scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|interface.sv|.\fifo_testbench.sv|.\fifo_design.sv|
+Z11 !s90 .\fifo_design.sv|.\fifo_testbench.sv|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Yfifo_if
+R5
+R6
+!i10b 1
+!s100 kie[58QkB[C@:H6K[hJHH0
+Ia>YG;MUC[HIOd]jdXiaTc2
+R7
+Z13 !s105 fifo_testbench_sv_unit
+S1
+R0
+w1780008303
+8interface.sv
+Z14 Finterface.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vfifo_testbench
+R5
+DXx4 work 22 fifo_testbench_sv_unit 0 22 8mlQRS7?jC=<?C>Zz=Z1l2
+R7
+r1
+!s85 0
+!i10b 1
+!s100 ?RDIG5dO:hC;6NKdE`>J53
+IUE^Dg:6O:YgG>PIMg@?^U0
+R13
+S1
+R0
+w1780129503
+Z15 8.\fifo_testbench.sv
+Z16 F.\fifo_testbench.sv
+L0 10
+R8
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+Xfifo_testbench_sv_unit
+!s115 fifo_if
+R5
+V8mlQRS7?jC=<?C>Zz=Z1l2
+r1
+!s85 0
+!i10b 1
+!s100 Z6B05GS71PGeV`XAk?LT<0
+I8mlQRS7?jC=<?C>Zz=Z1l2
+!i103 1
+S1
+R0
+w1780129774
+R15
+R16
+R14
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+Fmonitor.sv
+Fscoreboard.sv
+L0 1
+R8
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
