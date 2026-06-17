@@ -24,11 +24,11 @@ Parameterized SRAM model supporting configurable memory depth and width for RTL-
 
 Finite State Machine (FSM) based vending machine controller implemented in Verilog.
 
-### Verification
+# Verification
 
 This directory contains SystemVerilog-based verification projects.
 
-#### FIFO Verification (FIFO_VER_1)
+### FIFO Verification (FIFO_VER_1)
 
 Comprehensive SystemVerilog verification environment for FIFO design including:
 
@@ -38,7 +38,7 @@ Comprehensive SystemVerilog verification environment for FIFO design including:
 * Functional verification using assertions and testcases
 * Coverage-oriented verification methodology
 
-#### Flip-Flop Verification (FLOP)
+### Flip-Flop Verification (FLOP)
 
 SystemVerilog verification environment for validating flip-flop functionality under different operating conditions and reset scenarios.
 
